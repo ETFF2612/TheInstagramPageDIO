@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(243,243,243);
+    margin:0;
+    padding: 0;
+    display : flex;
+    justify-content: center;
+}
+.Instagram-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.Celular-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.Celular-logo img{
+    height: 40rem;
+}
+.Tudo{
+    display: flex;
+    align-items: center; /* Horizontal */
+    justify-content: space-around;/* Vertical*/
+    flex-direction: column; 
+    width: 50%;
+    min-height: 34rem;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+.Photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Photo img {
+    height: 6rem;
+}
+.Instagram img {
+    height: 3rem;
+}
+.Container:nth-child(1){
+    min-height: 19rem;
+}
+.Button{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.Remove {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.Nome{
+    color: rgba(160,160,160);
+}
+.Link{
+    color:#0095f6;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.Logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Bttn{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.Bttn:nth-child(1){
+	background-image: url(../img/Download1.jpg);
+}
+.Bttn:nth-child(2){
+	background-image: url(../img/logo_google.png);
+}
+
+.logo img {
+    height: 3rem;
+}
+@media(max-width: 1024px){
+	.Instagram-wrapper{
+		width: 90%;
+	}
+}
+@media(max-width: 650px){
+	body{
+		background-color: #ffffff
+	}
+	.Container{
+		border:1px solid transparent;
+	}
+	.Instagram-wrapper{
+		width: 90%;
+	}
+	.Celular-logo{
+		display: none;
+	}
+	.Tudo{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
